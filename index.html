@@ -11,7 +11,7 @@
 </head>
 <body>
     <section id="section-one" class="section-one">
-        <div class="main">
+        <div class="main" id="main">
             <h1>Live Quize</h1>
             <div class="main-body">
            <div class="table">
@@ -19,13 +19,13 @@
                <div class="que"> How Many Digit Present Int 1000 ?</div>
                <div class="option">
                    
-                       <input type="radio"for="" name="option"  class="input input1">
+                       <input type="radio"for="" name="option"  class="input input1" id="op11">
                        <option value="1" class="input">1</option>  
-                       <input type="radio"for="" name="option" class="input input2">
+                       <input type="radio"for="" name="option" class="input input2" id="op12">
                        <option value="1"class="input">2</option>  
-                       <input type="radio"for="" name="option" class="input input3">
+                       <input type="radio"for="" name="option" class="input input3" id="op13">
                        <option value="1"class="input">3</option>  
-                       <input type="radio"for="" name="option" class="input input4">
+                       <input type="radio"for="" name="option" class="input input4" id="op14">
                        <option value="1"class="input">4</option>  
                       
                </div>
@@ -35,13 +35,13 @@
             <div class="que"> Who is the PM of India ?</div>
             <div class="option">
                 
-                    <input type="radio"for="" name="option1"  class="input input1">
+                    <input type="radio"for="" name="option1"  class="input input1" id="op21">
                     <option value="2" class="input">Uddav thakray</option>  
-                    <input type="radio"for="" name="option1" class="input input2">
+                    <input type="radio"for="" name="option1" class="input input2" id="op22">
                     <option value="2"class="input">Naredra Modi</option>  
-                    <input type="radio"for="" name="option1" class="input input3">
+                    <input type="radio"for="" name="option1" class="input input3" id="op23">
                     <option value="2"class="input">Rahul Gadhi</option>  
-                    <input type="radio"for="" name="option1" class="input input4">
+                    <input type="radio"for="" name="option1" class="input input4" id="op24">
                     <option value="2"class="input">None</option>  
                    
             </div>
@@ -51,20 +51,20 @@
             <div class="que"> What is full from of JS ?</div>
             <div class="option">
                 
-                    <input type="radio"for="" name="option2"  class="input input1">
+                    <input type="radio"for="" name="option2"  class="input input1" id="op31">
                     <option value="2" class="input">java</option>  
-                    <input type="radio"for="" name="option2" class="input input2">
+                    <input type="radio"for="" name="option2" class="input input2" id="op32">
                     <option value="2"class="input">java2</option>  
-                    <input type="radio"for="" name="option2" class="input input3">
+                    <input type="radio"for="" name="option2" class="input input3" id="op33">
                     <option value="2"class="input">JavaScript</option>  
-                    <input type="radio"for="" name="option2" class="input input4">
+                    <input type="radio"for="" name="option2" class="input input4" id="op34">
                     <option value="2"class="input">None</option>  
                    
             </div>
            </div>
                 
             <div class="button">
-                <button class="submit" id="submit"> End Exam </button>
+                <button class="submit" id="submit" onclick="submit()"> End Exam </button>
             </div>
 
             </div>
@@ -72,6 +72,7 @@
         </div>
     </section>
     <section class="section-two" id="section-two" >
+        <div id="ans-marks"></div>
        
 
     </section>
